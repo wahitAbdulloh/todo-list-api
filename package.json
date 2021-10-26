@@ -1,0 +1,25 @@
+{
+  "name": "todo-list-restful-api",
+  "version": "1.0.0",
+  "description": "restful api for todo list app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "todo",
+    "list",
+    "backend"
+  ],
+  "author": "Wahit Abdulloh wahid4bdullah@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.7.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
